@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{276B0D04-7B7F-403D-A895-E6B115305F17}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Lets Vote!", "..\Lets Vote!\Lets Vote!.vdproj", "{6389F69F-E1FF-445E-BD76-E5E4284279E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{276B0D04-7B7F-403D-A895-E6B115305F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276B0D04-7B7F-403D-A895-E6B115305F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276B0D04-7B7F-403D-A895-E6B115305F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276B0D04-7B7F-403D-A895-E6B115305F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6389F69F-E1FF-445E-BD76-E5E4284279E5}.Debug|Any CPU.ActiveCfg = Debug
+		{6389F69F-E1FF-445E-BD76-E5E4284279E5}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {697C3EEA-749D-443A-82D3-02BC14EA65E2}
+	EndGlobalSection
+EndGlobal

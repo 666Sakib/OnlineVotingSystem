@@ -1,0 +1,34 @@
+create database Info_DB;
+
+create  table login_tbl
+(username varchar(50) not null,
+pass nvarchar(50) not null);
+
+insert into login_tbl values ('Admin', '1234');
+
+create  table assistant_data
+(id int not null,
+username varchar(50) not null,
+pass nvarchar(50) not null);
+
+create table candidate_info
+(VoterID int not null,
+Name varchar(50) not null,
+Info varchar(50) not null,
+Team varchar(50) not null,
+PhoneNumber int not null,
+Email varchar(50) not null,
+Pass varchar(50) not null,
+Picuture IMAGE);
+
+create table Voter_info
+(VoterID int not null,
+Name varchar(50) not null,
+FatherName varchar(50) not null,
+MotherName varchar(50) not null,
+PhoneNumber int not null,
+Email varchar(50) not null,
+Pass varchar(50) not null);
+
+
+
